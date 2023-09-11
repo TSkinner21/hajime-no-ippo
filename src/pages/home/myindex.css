@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+#banner {
+    background-image:url('https://kongbakpao.com/wp-content/uploads/2020/11/kbp_hajimenoippo_banner.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+
+}
+
+#video-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.content {
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.video {
+    width: 60%;
+}
+
+#sinopse {
+    width: 70%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+
+}
+.descricao {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 18px;
+    color:#809fff;
+    width: 80%;
+    
+}

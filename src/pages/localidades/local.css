@@ -1,0 +1,83 @@
+#background {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://st2.depositphotos.com/1704023/46516/i/600/depositphotos_465165404-stock-photo-in-the-boxing-ring-interior.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    text-decoration: none;
+    list-style: none;
+}
+
+#map {
+    height: 700px;
+    width: 700px;
+    display: block;
+    position: relative;
+}
+
+.spot {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border: double white;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.spot:hover {
+    height: 100px;
+    width: 120px;
+    border-radius: 4px;
+}
+
+#tokyo1 {
+    top: 550px;
+    left: 600px;
+}
+#tokyo1:hover {
+    border-radius: 10px;
+    height: 210px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-color: black;
+    background-image: url( https://static.wikia.nocookie.net/ippo/images/3/3c/K%C5%8Drakuen_Hall.png/revision/latest/scale-to-width-down/350?cb=20191114124819);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#tokyo1:hover .korakuen {
+    display: block;
+}
+
+.korakuen {
+    display: none;
+    color: white;
+    font-size: 8px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    transition: 2s;
+}
+
+
+#tokyo2 {
+    top: 500px;
+    left: 500px;
+}
+
+#tokyo3 {
+    top: 440px;
+    left: 610px;
+}

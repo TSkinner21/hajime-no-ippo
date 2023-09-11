@@ -1,0 +1,21 @@
+.buttn {
+    width: 200px;
+    color: aliceblue;
+    background-color: #d21417;
+    cursor: pointer;
+    height: 70px;
+    border-radius: 5px;
+    justify-content: center;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    transition: .8s;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+}
+
+.buttn:hover {
+    background-color: #ffff;
+    color: #d21417;
+}

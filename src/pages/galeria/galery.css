@@ -1,0 +1,30 @@
+#background {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://st2.depositphotos.com/1704023/46516/i/600/depositphotos_465165404-stock-photo-in-the-boxing-ring-interior.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+#galery {
+    height: 600px;
+    width: 900px;
+    background-color: black;
+    border-radius: 3px;
+    border: 10px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+
+}
+
+.photos {
+    height: 100%;
+    width: 100%;
+}
